@@ -5,8 +5,75 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+    <style>
+        #hero{
+            background-color: rgb(127, 168, 244);
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        #hero .a p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1.9rem;
+            margin: 3rem;
+            padding: 1rem;
+        }
+        #hero #img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #hero #img img{
+            border-radius: 20%;
+            margin: 1rem;
+            height: 280px;
+            width: 350px;
+        }
+        .c{
+            margin: 1rem 2rem;
+        }
+        .c a{
+            margin: 1rem 2rem;
+            padding: 0.2rem 0.5rem;
+            border: 1px solid black;
+            border-radius: 0.4rem;
+            background-color: rgb(208, 215, 221);
+            text-decoration: none;
+            color: black;
+        }
+        .c input{
+            margin: 2rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 0.3rem;
+            background-color: rgb(252, 166, 5);
+            cursor: pointer;
+        }
+        @media (max-width: 710px){
+            #hero{
+            grid-template-columns: repeat(1, 1fr);
+            }
+            #hero #img img{
+                height: 220px;
+                width: 260px;
+            }
+        }
+    </style>
   </head>
   <body>
+    
+    <section id="hero">
+        <div class="a">
+            <p>Play, Create, Rate Quizzes In Your Area Of Your Need Better Understanding With. Trivia Practices</p>
+            <p><em>Practices Makes Perfect</em></p>
+        </div>
+        <div id="img">
+            <img src="https://b2126106.smushcdn.com/2126106/wp-content/uploads/2014/02/study-focus-listening-to-music.png?size=840x420&lossy=1&strip=1&webp=1">
+        </div>
+        <div class="c">
+            <a href="">abcd@Email.com</a>
+            <input type="button" value="Get Started">
+        </div>
+    </div>
+    
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
