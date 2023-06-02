@@ -1,0 +1,33 @@
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  
+.t2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  .t3 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    width: 500px;
+    margin: auto;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 15px;
+  }
+  
+  .abt-img {
+    max-width: 100%;
+    margin: auto;
+  }
