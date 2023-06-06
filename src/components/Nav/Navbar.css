@@ -1,0 +1,27 @@
+.nav-container{
+  background-color: #8EB2E8;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+li{
+  padding-left: 350px;
+  text-decoration: none;
+}
+.logo{
+  color: black;
+}
+.sign-up{
+  width: 100px;
+  border-radius: 9px;
+  background-color: #8EB2E8;
+  border-color: black;
+  color: black;
+}
+
