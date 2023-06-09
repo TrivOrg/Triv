@@ -1,0 +1,20 @@
+.contacts {
+    padding-top: 2px;
+    background-color: #8EB2E8;
+    color: black;
+}
+
+.container {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.t3 {
+    text-align: left;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 32px;
+}
