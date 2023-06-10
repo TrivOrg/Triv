@@ -1,0 +1,44 @@
+.contacts {
+    padding-top: 2px;
+    background-color: #8EB2E8;
+    color: black;
+}
+
+.socials {
+    padding-right: 100px;
+}
+.resources h3{
+    width: 400px;
+}
+.company h3, .sublinks{
+    width: 300px;
+}
+
+.container {
+    padding-block: 80px;
+    display: flex;
+    justify-content:safe;
+}
+
+.t3 {
+    text-align: left;
+}
+
+.social-icons {
+    padding-top: 40px;
+}
+.social-icons a {
+    color: white;
+    font-size: 44px;
+    padding-right: 20px;
+}
+
+.sublinks {
+    display:grid;
+    padding-top: 20px;
+}
+
+.sublinks a {
+    color: black;
+    font-size: 27px;
+}
