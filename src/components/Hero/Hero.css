@@ -1,5 +1,37 @@
-.container {
-    width: 100vw;
+ .hero-container{
+  background-color: #8EB2E8;
+  padding: 200px;
+ } 
+  .hero{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .hero-top-text{
+    display: flex;
+    flex-direction: column;
+  }
+  p{
+    width: 500px;
+    padding: 20px;
+    color: black;
+    font-size: 2rem;
+  }
+  img{
+    width: 450px;
+    height: 500px;
+  }
+  .get-started{
+    display: flex;
+    padding: 20px;
+  }
+  .get-started input{
+    padding-left: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border: none;
+  }
+  .get-started button{
+    color: #ffffff;
+    background-color: #F89157;
   }

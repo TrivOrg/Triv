@@ -3,7 +3,7 @@ import learn from '../../assets/learn.svg'
 
 const Hero = () => {
     return (
-        <div className="container">
+        <div className="hero-container">
           <div className="hero">
             {/* Your hero section content goes here */}
             <div className="hero-top-text">
