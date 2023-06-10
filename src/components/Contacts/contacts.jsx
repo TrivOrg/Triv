@@ -26,9 +26,19 @@ const Contacts = () => {
                     </div>
                     <div className="resources">
                         <h3 className="t3">RESOURCES</h3>
+                        <div className='sublinks'>
+                            <a href="#support">SUPPORT</a>
+                            <a href="documentation">DOCUMENTATION</a>
+                            <a href="blog">BLOG</a>
+                        </div>
                     </div>
                     <div className="company">
                         <h3 className="t3">COMPANY</h3>
+                        <div className="sublinks">
+                            <a href="#t&c">TERMS & CONDITIONS</a>
+                            <a href="#faqs">FAQS</a>
+                            <a href="#aboutus">ABOUT US</a>
+                        </div>
                     </div>
                 </div>
             </div>

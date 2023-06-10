@@ -4,10 +4,14 @@
     color: black;
 }
 
+.company h3, .sublinks{
+    width: 300px;
+}
+
 .container {
-    padding-top: 80px;
+    padding-block: 80px;
     display: flex;
-    justify-content: center;
+    justify-content:safe;
 }
 
 .t3 {
@@ -21,4 +25,14 @@
     color: white;
     font-size: 44px;
     padding-right: 20px;
+}
+
+.sublinks {
+    display:grid;
+    padding-top: 20px;
+}
+
+.sublinks a {
+    color: black;
+    font-size: 27px;
 }
