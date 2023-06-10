@@ -4,6 +4,12 @@
     color: black;
 }
 
+.socials {
+    padding-right: 100px;
+}
+.resources h3{
+    width: 400px;
+}
 .company h3, .sublinks{
     width: 300px;
 }
