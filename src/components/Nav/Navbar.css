@@ -9,14 +9,20 @@ ul{
   list-style-type: none;
   display: flex;
   justify-content: center;
-  text-decoration: none;
 }
 li{
   padding-left: 350px;
   text-decoration: none;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
 .logo{
   color: black;
+  font-size: 32px;
 }
 .sign-up{
   width: 100px;
