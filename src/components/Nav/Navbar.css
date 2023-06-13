@@ -30,7 +30,12 @@ a{
   border-radius: 9px;
   border-width: 1px;
   background-color: #8EB2E8;
-  border-color: black;
-  color: black;
+}
+
+.sign-up:hover{
+  border-color: #F89157;
+  background-color: #F89157;
+  color: #fff;
+  scale: 1;
 }
 

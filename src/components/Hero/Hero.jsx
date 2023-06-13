@@ -11,7 +11,7 @@ const Hero = () => {
               <p className="sub-text">Practices Makes Perfect</p>
               <div className="get-started">
                 <input type="text" placeholder='johndoe@gmail.com' />
-                <button> Get Started</button>
+                <button className="get-started-button"> Get Started</button>
               </div>
             </div>
             <div className="right-image">
