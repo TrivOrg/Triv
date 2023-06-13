@@ -4,7 +4,7 @@ const Contacts = () => {
     return (
         <footer>
             <div className="contacts">
-                <h2 className="t2">CONTACTS</h2>
+                <h2 className="t2" id='contacts'>CONTACTS</h2>
                 <div className="container">
                     <div className="socials">
                         <h3 className="t3">OUR SOCIALS</h3>

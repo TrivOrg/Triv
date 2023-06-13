@@ -11,7 +11,7 @@ const About = () => {
 
       <div className="about">
 
-        <h2 className="t2">ABOUT</h2>
+        <h2 className="t2" id='about'>ABOUT</h2>
         <div className="row">
           <div className="column">
             <h3 className="t3">
