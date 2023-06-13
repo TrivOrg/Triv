@@ -25,13 +25,17 @@
     display: flex;
     padding: 20px;
   }
-  .get-started input{
+  input{
     padding-left: 10px;
     margin-right: 10px;
     background-color: #ffffff;
     border: none;
   }
-  .get-started button{
+  button{
+    width: 125px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
     color: #ffffff;
     background-color: #F89157;
   }
