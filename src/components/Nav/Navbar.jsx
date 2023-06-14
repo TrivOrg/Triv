@@ -1,7 +1,8 @@
 import './Navbar.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="nav-container">
@@ -14,7 +15,7 @@ const Navbar = () => {
           <li><a href="#contacts">Contact</a></li>
         </ul>
         <div className="button">
-          <button className="sign-up">
+          <button className="sign-up" onClick={() => navigate('/signup')}>
             Sign Up
           </button>
         </div>
